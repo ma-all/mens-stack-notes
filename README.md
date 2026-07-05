@@ -29,3 +29,7 @@ app.listen(3000,function() {
 ```
 Run the server with `nodemon server.js`
 <img width="455" height="155" alt="image" src="https://github.com/user-attachments/assets/ef5f3877-6095-437a-8471-eb94b9ce3b51" />
+
+Navigate to `http://localhost:3000` to view our server.
+
+Use `ctrl + c` to stop the server in the terminal.
