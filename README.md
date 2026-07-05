@@ -27,8 +27,9 @@ app.listen(3000,function() {
     console.log('Listening on port 3000')
 })
 ```
-Run the server with `nodemon server.js`
 <img width="455" height="155" alt="image" src="https://github.com/user-attachments/assets/ef5f3877-6095-437a-8471-eb94b9ce3b51" />
+
+Run the server with `nodemon server.js`
 
 Navigate to `http://localhost:3000` to view our server.
 
@@ -52,5 +53,6 @@ app.get('/:userId', function(req, res){
     console.log(req.params.userId)
 }) 
 ```
-Navigate to `http://localhost:3000/310` 
 <img width="358" height="92" alt="image" src="https://github.com/user-attachments/assets/d5cb4f5f-7efc-4f0c-8649-3c4ac6d68445" />
+
+Navigate to `http://localhost:3000/310` 
