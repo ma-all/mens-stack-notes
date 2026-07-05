@@ -42,3 +42,15 @@ app.get('/test', function(req, res){
 })
 ```
 <img width="387" height="102" alt="image" src="https://github.com/user-attachments/assets/5a9c2ab7-094c-480b-93e6-19da8df9ef33" />
+
+Navigate to `http://localhost:3000/test`
+
+### Using request parameters
+```js
+app.get('/:userId', function(req, res){
+    res.send(`hello ${req.params.userId}`)
+    console.log(req.params.userId)
+}) 
+```
+Navigate to `http://localhost:3000/310` 
+<img width="358" height="92" alt="image" src="https://github.com/user-attachments/assets/d5cb4f5f-7efc-4f0c-8649-3c4ac6d68445" />
